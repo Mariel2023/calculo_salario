@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3E5F5"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#7B1FA2"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Calculadora Salarial"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Nombre del Empleado"
+android:textColor="#4E342E"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp"/>
+
+<EditText
+android:id="@+id/nameEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Ingresa tu nombre"
+android:textColor="#4E342E"
+    android:backgroundTint="#D1C4E9"
+    android:padding="10dp"
+    android:textColorHint="#4E342E"
+    android:layout_marginBottom="16dp"/>
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Salario Base"
+android:textColor="#4E342E"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp"/>
+
+<EditText
+android:id="@+id/salaryEditText"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Ingresa tu salario"
+android:textColor="#4E342E"
+    android:backgroundTint="#D1C4E9"
+    android:padding="10dp"
+    android:textColorHint="#4E342E"
+    android:layout_marginBottom="16dp"/>
+
+<Button
+android:id="@+id/calculateButton"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Calcular"
+android:textColor="#FFFFFF"
+    android:backgroundTint="#7B1FA2"
+    android:padding="12dp"/>
+    </LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp">
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Resultado"
+android:textColor="#4E342E"
+    android:textSize="18sp"
+    android:layout_marginBottom="8dp"/>
+
+<TextView
+android:id="@+id/resultTextView"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textColor="#4E342E"
+    android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D1C4E9"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:text="Creadores: Mariela y Ricardo"
+        android:textAlignment="center"
+        android:textColor="#4E342E" />
+</LinearLayout>
+
+
+
+
